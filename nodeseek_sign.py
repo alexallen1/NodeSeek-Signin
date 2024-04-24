@@ -2,7 +2,7 @@ import requests
 import os
 
 random = "false"  # 随机签到1-x鸡腿为true，固定鸡腿*5为false
-Cookie = os.environ.get("COOKIE","")
+Cookie = os.environ.get("COOKIE","colorscheme=light; session=719d8c846c65e27df110dd43cfd801e7; smac=1713944289-0cZyTURs_qWSFYlLpOHyng8DIUEbZdiMWEqluiZfR8Q; hmti_=1713960166-r9I1OI7GwGj-p8BVPxvQ-tIrDDuJr3rVE9AwWvr53d8o; cf_clearance=oY148elct75F74Mq2gO8z7w9n.dqtvptbk436Oq2QGc-1713961153-1.0.1.1-jPhOXCTzGFsqmB57dx4bldeS8Ntsukhfr8bG.MMvgd6J1vaHEeLxm.ouLXATw5ZRjq99.Uwe1eT_Ir1ehr4nIg")
 pushplus_token = os.environ.get("PUSHPLUS_TOKEN")
 telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN","")
 chat_id = os.environ.get("CHAT_ID","")
