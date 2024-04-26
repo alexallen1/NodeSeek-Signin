@@ -3,7 +3,7 @@ import os
 
 random = "false"  # 随机签到1-x鸡腿为true，固定鸡腿*5为false
 Cookie = os.environ.get("COOKIE","colorscheme=light; smac=1713944289-0cZyTURs_qWSFYlLpOHyng8DIUEbZdiMWEqluiZfR8Q; hmti_=1714154493-5GnLNdQPM0AGKSf1Gyagh1KLOBYe4SkENADaFpchbHwz")
-pushplus_token = os.environ.get("PUSHPLUS_TOKEN")
+pushplus_token = os.environ.get("12e2c7ef9d5a40f6a1b2ed73b0e30381")
 telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN","")
 chat_id = os.environ.get("CHAT_ID","")
 telegram_api_url = os.environ.get("TELEGRAM_API_URL","https://api.telegram.org") # 代理api,可以使用自己的反代
